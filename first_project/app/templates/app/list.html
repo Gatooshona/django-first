@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список страниц</title>
+</head>
+<body>
+    {% for item in index_list %}
+        <h1><a href="{{ item.name }}">{{ item.name }}</a></h1>
+    {% endfor %}
+</body>
+</html>
